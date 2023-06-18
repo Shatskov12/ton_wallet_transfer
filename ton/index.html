@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TON Wallet Transfer</title>
+  <link rel="icon" href="ton.svg">
+  <script src="https://unpkg.com/@tonconnect/ui@1.0.0-beta.5/dist/tonconnect-ui.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="connect-button-root"></div>
+  <div class="payment-form-container">
+    <h1 class="form-title">TRANSFER</h1>
+        <div class="form-field">
+          <input type="text" id="input_address" placeholder="address">
+        </div>
+        <div class="form-field">
+          <input type="number" id="input_amount" placeholder="amount ton" min="0">
+        </div>
+        <div class="payment-button">
+            <button class="button" id="btn_send_tx">SEND</button>
+        </div>
+  </div>
+  <div class="notification">
+    <span class="message" id="message"></span>
+    <button class="close-button">&times;</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
