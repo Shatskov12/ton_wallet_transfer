@@ -1,3 +1,7 @@
+# ton_wallet_transfer Python
+Для перевола необходима ваша seed фраза, после испонения скрипта транзакия можно отследить в сканере
+![транзакция](ton/tx.png)
+
 # ton_wallet_transfer
 ![Инерфейс](ton/interface.png)
 
